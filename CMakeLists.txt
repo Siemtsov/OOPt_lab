@@ -3,4 +3,6 @@ project(OOPt_lab)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(OOPt_lab main.cpp)
+add_executable(OOPt_lab main.cpp
+        cmake-build-debug/Person.cpp
+        cmake-build-debug/Person.h)

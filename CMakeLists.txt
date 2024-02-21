@@ -7,4 +7,6 @@ add_executable(OOPt_lab main.cpp
         Person.cpp
         Person.h
         Place.cpp
-        Place.h)
+        Place.h
+        Date.cpp
+        Date.h)

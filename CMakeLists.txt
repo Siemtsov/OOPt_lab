@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(OOPt_lab main.cpp
         Person.cpp
-        Person.h)
+        Person.h
+        Place.cpp
+        Place.h)

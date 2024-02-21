@@ -55,8 +55,14 @@ build CMakeFiles/OOPt_lab.dir/main.cpp.obj: CXX_COMPILER__OOPt_lab_unscanned_Deb
   OBJECT_DIR = CMakeFiles\OOPt_lab.dir
   OBJECT_FILE_DIR = CMakeFiles\OOPt_lab.dir
 
-build CMakeFiles/OOPt_lab.dir/Person.cpp.obj: CXX_COMPILER__OOPt_lab_unscanned_Debug C$:/Users/Admin/Documents/GitHub/OOPt_lab/cmake-build-debug/Person.cpp || cmake_object_order_depends_target_OOPt_lab
+build CMakeFiles/OOPt_lab.dir/Person.cpp.obj: CXX_COMPILER__OOPt_lab_unscanned_Debug C$:/Users/Admin/Documents/GitHub/OOPt_lab/Person.cpp || cmake_object_order_depends_target_OOPt_lab
   DEP_FILE = CMakeFiles\OOPt_lab.dir\Person.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OOPt_lab.dir
+  OBJECT_FILE_DIR = CMakeFiles\OOPt_lab.dir
+
+build CMakeFiles/OOPt_lab.dir/Place.cpp.obj: CXX_COMPILER__OOPt_lab_unscanned_Debug C$:/Users/Admin/Documents/GitHub/OOPt_lab/Place.cpp || cmake_object_order_depends_target_OOPt_lab
+  DEP_FILE = CMakeFiles\OOPt_lab.dir\Place.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\OOPt_lab.dir
   OBJECT_FILE_DIR = CMakeFiles\OOPt_lab.dir
@@ -69,7 +75,7 @@ build CMakeFiles/OOPt_lab.dir/Person.cpp.obj: CXX_COMPILER__OOPt_lab_unscanned_D
 #############################################
 # Link the executable OOPt_lab.exe
 
-build OOPt_lab.exe: CXX_EXECUTABLE_LINKER__OOPt_lab_Debug CMakeFiles/OOPt_lab.dir/main.cpp.obj CMakeFiles/OOPt_lab.dir/Person.cpp.obj
+build OOPt_lab.exe: CXX_EXECUTABLE_LINKER__OOPt_lab_Debug CMakeFiles/OOPt_lab.dir/main.cpp.obj CMakeFiles/OOPt_lab.dir/Person.cpp.obj CMakeFiles/OOPt_lab.dir/Place.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OOPt_lab.dir

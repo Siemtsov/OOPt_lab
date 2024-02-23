@@ -14,6 +14,9 @@ Place::Place()
 //:name{"Unknown Place"},weather{"Unknown Weather"},temperature{0}
         : Place("Unknown Place","Unknown weather",0)
 {}
+Place::Place(std::string newPlace)
+        :Place(newPlace,"Unknown weather",0)
+{}
 Place::Place(std::string newPlace, std::string newWeather)
 //:name{newPlace},weather{newWeather},temperature{0}
         :Place(newPlace,newWeather,0)

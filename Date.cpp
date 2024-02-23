@@ -12,7 +12,14 @@ void Date::setDay(std::string &&newDay) {
     day=newDay;
 }
 
-Date::Date(): Date("Monday",01,2024) {}
+Date::Date(): Date("Monday",01,2024)
+{}
+Date::Date(std::string newDay)
+        : Date(newDay,01,2024)
+{}
+Date::Date(std:: string newDay,int newMonth)
+        :Date(newDay,newMonth,2024)
+{}
 Date::Date(std::string newDay, int newMonth, int newYear)
         :day{newDay},month{newMonth},year{newYear}
 {}

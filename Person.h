@@ -1,6 +1,6 @@
 
-#ifndef OPPT_LAB2_PERSON_H
-#define OPPT_LAB2_PERSON_H
+#ifndef OOPT_LAB_PERSON_H
+#define OOPT_LAB_PERSON_H
 #include <iostream>
 
 class Person {
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //OPPT_LAB2_PERSON_H
+#endif //OOPT_LAB_PERSON_H

@@ -1,7 +1,7 @@
 
 #include <iostream>
-#ifndef OPPT_LAB2_PLACE_H
-#define OPPT_LAB2_PLACE_H
+#ifndef OOPT_LAB_PLACE_H
+#define OOPT_LAB_PLACE_H
 
 
 class Place {
@@ -14,10 +14,11 @@ public:
     void setPlace (std::string &&newName);
 
     Place();
+    Place(std::string newPlace);
     Place(std::string newPlace,std::string newWeather);
     Place(std::string newPlace,std::string newWeather,int newTemperature);
     ~Place();
 };
 
 
-#endif //OPPT_LAB2_PLACE_H
+#endif //OOPT_LAB_PLACE_H

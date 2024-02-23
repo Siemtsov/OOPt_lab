@@ -1,8 +1,8 @@
 
 #include <iostream>
 
-#ifndef OPPT_LAB2_DATE_H
-#define OPPT_LAB2_DATE_H
+#ifndef OOPT_LAB_DATE_H
+#define OOPT_LAB_DATE_H
 
 
 class Date {
@@ -14,9 +14,11 @@ public:
     void getDate();
     void setDay(std::string &&newDay);
     Date();
+    Date(std::string newDay);
+    Date(std::string newDay,int newMonth);
     Date(std::string newDay, int newMonth,int newYear);
     ~Date();
 };
 
 
-#endif //OPPT_LAB2_DATE_H
+#endif //OOPT_LAB_DATE_H
